@@ -1,0 +1,55 @@
+.WorkInclusive {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center; /* Testo centrato */
+}
+
+.WorkInclusive label {
+  display: inline-block; /* Trasforma le label in blocchi inline */
+  margin: 10px; /* Aggiunto spazio tra le opzioni */
+  font-weight: bold;
+}
+
+.WorkInclusive input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.WorkInclusive button {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto; /* Allineamento a destra */
+  margin-right: auto; /* Allineamento a sinistra */
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.WorkInclusive button:hover {
+  background-color: #0056b3;
+}
+
+.WorkInclusive #result {
+  margin-top: 20px;
+  text-align: center; /* Testo centrato */
+}
+
+.WorkInclusive #result h3 {
+  color: #333;
+}
+
+.WorkInclusive #result ul {
+  list-style-type: none;
+  padding: 0;
+  display: inline-block; /* Imposta il contenitore della lista come blocco inline */
+}
+
+.WorkInclusive #result li {
+  margin-bottom: 5px;
+  text-align: left; /* Allinea il testo a sinistra all'interno degli elementi della lista */
+}
